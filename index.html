@@ -2,37 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dev 101</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arlan Garcines Portfolio</title>
+  <link rel="stylesheet" href="/assets/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      background-image: url(/assets/images/image.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+    }
+    p {
+      font-family: 'nunito', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'playfair display', sans-serif;
+    }
+  </style>
 </head>
 
-<body >
-
-<div>
-    <span id="hi">
-
-    </span>
-</div>
-<header class="container header">
-    <p>ARLAN E. GARCINES</p>
-    <div class="nav-desktop">
-<p>Project</p>
-<p>About</p>
-<p>Contact</p>
+<body>
+  <header class="header">
+    <h1 class="logo"><a class="logo" href="/index.html">Arlan Garcines</a></h1>
+    <nav class="nav-links">
+      <a href="/about.html">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="subtitle"><strong>UI/UX Designer</strong></p>
+      <h1>Hello, my name is Arlan Garcines</h1>
+      <p class="description">Short text with details about you, what you do or your professional career.
+        You can add more information on the about page.</p>
+      <div class="buttons">
+        <button class="btn-primary">Projects</button>
+        <button class="btn-secondary">LinkedIn</button>
+      </div>
     </div>
-</header>
-<section class="section container">
-    <div><p class="typo">UI/UX DESIGNER</p>
-    <h1 class="header">HELLO, my name<br>is Arlan Garcines</h1>
-    <p>Short text with details about you, what you do or professional career. You can add more information on the about page</p>
+  </section>
+  <section class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-card">
+      <div class="project-text">
+        <h3>Project Name</h3>
+        <p>I created this personal project in order to show how to create an interface in Figma using a portfolio as an
+          example.</p>
+        <a href="#" class="btn-secondary2">View Project</a>
+      </div>
+      <img src="/assets/images/pexels-elly-fairytale-3823207 1.png" alt="Project 1">
     </div>
-    
-</section>
-<div>
-</div>
-<script src="/assets/scripts/main.js"></script>
+
+    <div class="project-card reverse">
+      <img src="/assets/images/Rectangle 7.png" alt="Project 2">
+      <div class="project-text">
+        <h3>Project Name</h3>
+        <p>What was your role, deliverables, if the project was personal, freelancing.</p>
+        <a href="#" class="btn-secondary2">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h3>Project Name</h3>
+        <p>You can also add in this description the type of the project, if it was for web, mobile, electron.</p>
+        <a href="#" class="btn-secondary2">View Project</a>
+      </div>
+      <img src="/assets/images/f898a47e5254b4952e607d1855c993d0faa54f1d.jpg" alt="Project 3" width="500px">
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="socials">
+      <a href="#"><img src="/assets/images/av16efeffeed4418c90c1.png" alt="Instagram" width="30px"></a>
+      <a href="#"><img src="/assets/images/linkedin-with-circle-icon-2048x2048-np6yltn1.png" alt="LinkedIn"
+          width="30px"></a>
+      <a href="#"><img src="/assets/images/envelope.png" alt="Email" width="40px"></a>
+    </div>
+    <p>© 2025 Arlan Garcines</p>
+  </footer>
+
 </body>
 
 </html>
